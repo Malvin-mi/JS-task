@@ -32,3 +32,10 @@ body {
 .gallery-sec .product-image img{
     height: 400px;
 }
+
+@media screen and (max-width:470px) {
+    .gallery-sec .product-image img{
+        height: 300px;
+    }
+    
+}
