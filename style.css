@@ -14,8 +14,6 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 100%;
-    
 }
 
 .welcome::before {
@@ -29,4 +27,8 @@ body {
     right: 0px;
     bottom: 0px;
     left: 0px;
+}
+
+.gallery-sec .product-image img{
+    height: 400px;
 }

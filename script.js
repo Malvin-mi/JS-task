@@ -1,7 +1,7 @@
 let products = [
     {
-       name: 'Adidas X 17',
-       product_img: 'adidas X 17',
+       name: 'Adidas Nemeziz',
+       product_img: 'adidas nemeziz',
        price: '#22,000'
     },
     {
