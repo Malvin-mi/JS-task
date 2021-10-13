@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Scheherazade New', serif;
+}
+
+.welcome {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    
+}
+
+.welcome::before {
+    content: "";
+    background-image: url('./images/The\ 10\ Best\ Soccer\ Players\ in\ the\ World.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.3;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
